@@ -1,0 +1,3 @@
+{
+  "plugins": ["minify-dead-code-elimination", "transform-node-env-inline"]
+}

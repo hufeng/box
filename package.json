@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "babel-plugin-minify-dead-code-elimination": "^0.5.0",
+    "babel-plugin-transform-node-env-inline": "^0.4.3"
+  },
+  "scripts": {
+    "prod": "NODE_ENV=production babel src/index.js --out-file output/index.prod.js",
+    "test": "NODE_ENV=test babel src/index.js --out-file output/index.test.js",
+    "dev": "NODE_ENV=development babel src/index.js --out-file output/index.dev.js"
+  }
+}
